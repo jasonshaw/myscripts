@@ -43,7 +43,7 @@
     var mainTitleObj = document.querySelector('h4.break-all')||document.querySelector('h1.article-title');//兼容
     var mainTitle = mainTitleObj.textContent.trim().replace(/(\s+)|\/|\||#]/g,'-').replace(/&/g,'+');
     hoverDelayCopy(mainTitleObj,500,mainTitle);//增加延时悬停复制功能
-    console.log(mainTitle);
+    // console.log(mainTitle);
     //处理磁力链
     //#body > div > div > div.col-lg-9.main > div.card.card-thread > div > div.message.break-all
     var messageObj = document.querySelector('div.message.break-all')||document.querySelector('article.article-content');
